@@ -1,0 +1,25 @@
+{
+  "name": "normalize-stylus",
+  "version": "1.0.0",
+  "description": "Stylus version of Normnalize.css",
+  "main": "normalize.styl",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michielvandergeest/normalize-stylus.git"
+  },
+  "keywords": [
+    "normalize.css",
+    "css",
+    "stylus"
+  ],
+  "scripts": {
+    "postinstall": "node install.js"
+  },
+  "author": "Michiel van der Geest <hello@michielvandergeest.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/michielvandergeest/normalize-stylus",
+  "dependencies": {
+    "normalize.css": "latest",
+    "stylus": "latest"
+  }
+}
